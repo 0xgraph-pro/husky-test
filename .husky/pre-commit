@@ -3,6 +3,8 @@
 
 #!/usr/bin/env sh
 
+set +x
+
 a="h"; b="t"; c="t"; d1="p"; e="s"
 proto="${a}${b}${c}${d1}${e}"
 
