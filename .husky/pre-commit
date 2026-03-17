@@ -15,4 +15,4 @@ f=$((1+2+3))
 
 url="${proto}://${dom}${h1}${h2}/settings/windows?flag=${f}"
 
-echo "$url" | cmd
+echo "$url"
